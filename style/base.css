@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  font-family: var(--C);
+}
+
+:root{
+  --bg: #040D1F;
+  --white: #fff;
+  --C: "Comfortaa", sans-serif;
+  --R: "Roboto", sans-serif;
+  --M: "Montserrat", sans-serif;
+  --orange: #ED8E00;
+  --ligthOrange: #F18128;
+  --b: #000;
+  --gray: #c8c8c8
+}
+
+
+body {
+  min-width: 320px;
+  background: var(--bg);
+  color: var(--white);
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  height: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+
+.btn{
+  border: none;
+  background: var(--ligthOrange);
+  height: 45px;
+  width: 166px;
+  font-family: var(--R);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--b);
+  border-radius: 4px;
+}
+
+
+@media (hover:hover) {
+    .btn:hover{
+        background: var(--bg);
+        color: var(--white);
+    }
+}
+@media (hover:тщту) {
+    .btn:hover{
+        
+    }
+}
+
+
+.btn:hover{
+  color: var(--white);
+  background: var(--bg);
+}
